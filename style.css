@@ -1,0 +1,73 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+      /* Your code goes here */
+.background
+ {
+    widows: 100%;
+    height: 100vh;
+    background-image: url(file:///C:/Users/User/OneDrive/Desktop/Elegent/an-elegant-design/an-elegant-design/assets/Desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }  
+ nav 
+{
+  display: flex; 
+  width: 95%; 
+  padding: 20px 0 ;      
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+ }
+ nav ul li{ 
+  display: inline-block;
+  list-style-type: none; 
+  margin: 10px 20px;
+ } 
+ nav ul li a
+ {
+  color:white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; 
+  text-decoration: none;
+ }
+ nav ul li button
+ {
+    background-color:rgba(10, 136, 154, 1);
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 2px solid rgba(10, 136, 154, 1);
+    border-radius: 30px;
+ }
+ nav li a:hover
+ {
+   color: skyblue;
+   transition: 0.2s;
+ }
+  .heading h1
+  {
+    font-size:4vw;
+    color:white;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+  .heading button
+  {
+    background-color: rgba(10, 136, 154, 1);
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: 2px solid rgba(10, 136, 154, 1);
+    border-radius: 30px;
+  }
